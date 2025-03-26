@@ -253,7 +253,7 @@ class DataReader():
 
         for adj in adj_list:
             sub_list = []
-            for feature in nx.from_numpy_matrix(np.array(adj)).degree():
+            for feature in nx.from_numpy_array(np.array(adj)).degree(): #userd to be from_numpy_matrix
                 sub_list.append(feature[1])
             node_features_list.append(np.array(sub_list))
 

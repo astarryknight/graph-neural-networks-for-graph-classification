@@ -9,7 +9,7 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 import torch.optim.lr_scheduler as lr_scheduler
-from torchsummary import summary
+#from torchsummary import summary
 
 from datasets.graph_data_reader import DataReader, GraphData
 from models.GCN import GCN

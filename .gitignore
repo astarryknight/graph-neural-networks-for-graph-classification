@@ -1,0 +1,7 @@
+/test_result/
+/save_model/
+/__pycache__/
+datasets/
+layers/__pycache__/
+models/__pycache__/
+readouts/__pycache__
